@@ -20,13 +20,28 @@
         <main id="main">
             <br>
             <br>
-        <h1>Welcome to FunSite!</h1>
+        <h1 id="h1 javascript">Welcome to a Site!</h1>
+
+        <script>
+        const element = document.getElementById("h1 javascript") ;
+        element.innerHTML = "Welcome to FunSite!";
+        </script>
+
         <div>
             <p>Welcome to FunSite, your go-to destination for all things pets, recipes, and travel! Explore a world of captivating content where we cater to your love for furry companions, culinary delights, and globetrotting adventures. </p>
             <div class="home-grid-container">
                 <div class="grid-item">
                 <img src="images/bacon_bandana.JPG" width="400" height="500" alt="Brown labradoodle wearing an orange bandana" class="grid-item centered-image">
             </div>
+
+
+            <p id="demo"></p>
+
+            <script>
+                document.getElementById("demo").innerHTML = "Site Visted At : " + Date();
+
+            </script>
+
             
             <!-- Jackie Wolf -->
     
